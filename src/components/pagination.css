@@ -1,0 +1,50 @@
+.ant-typography.css-dev-only-do-not-override-14wwjjs{
+    text-decoration: underline solid;
+
+}
+
+.products{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    margin: 1.5rem;
+    
+}
+
+.product{
+    background-color: #f3f3f3;
+    padding: 1.5rem;
+    height: 15.625rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+
+.product > img{
+    width: 100%;
+    height: 95%;
+    object-fit: cover;
+
+}
+
+.pageList{
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+.pageList > span{
+    border: 1px solid black;
+    padding: 0.7rem 1.2rem;
+    cursor: pointer;
+}
+
+.pageList > span:hover{
+    background-color: lightgray;
+}
+
+.current__page{
+    background-color: lightgray;
+}
+
+
+
+
